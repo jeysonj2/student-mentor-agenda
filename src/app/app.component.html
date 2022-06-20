@@ -6,9 +6,8 @@
 
         <mat-card class="agenda-date-picker">
           <mat-calendar [(selected)]="dateSelected"></mat-calendar>
+          <p class="agenda-date-selected">Selected date: {{dateSelected | date: 'dd.MM.YYYY'}}</p>
         </mat-card>
-
-        <p class="agenda-date-selected">Selected date: {{dateSelected | date: 'dd.MM.YYYY'}}</p>
 
       </div>
 
