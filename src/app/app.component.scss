@@ -1,0 +1,25 @@
+.container-fluid {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.agenda-date-picker {
+  max-width: 300px;
+}
+
+.agenda-hours {
+  padding: 0;
+
+  .hour-row {
+    cursor: pointer;
+
+    .hour-label {
+      white-space: nowrap;
+    }
+  }
+}
+
+.agenda-date-selected {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

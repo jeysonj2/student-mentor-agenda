@@ -1,0 +1,20 @@
+{
+  "/apiDev": {
+    "target": "https://private-anon-1f45f84264-cfcalendar.apiary-mock.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/apiDev": ""
+    }
+  },
+  "/api": {
+    "target": "https://private-anon-1f45f84264-cfcalendar.apiary-proxy.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Request a video call</h1>
+
+<div mat-dialog-content [formGroup]="form">
+  <p>Why do you want the video call?</p>
+
+  <p>Date time: {{data.dateTime|date: 'dd.MM.YYYY HH:mm'}}</p>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Reason:</mat-label>
+    <textarea matInput formControlName="reason"></textarea>
+  </mat-form-field>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="save()" [disabled]="!form.valid">Request</button>
+</div>
