@@ -1,7 +1,6 @@
 # Student-Mentor Agenda
 
-This project is a solution of "CareerFoundry CodeChallenge -
-Frontend" by Jeyson Buitrago Cepeda
+This project is a solution proposed by Jeyson Buitrago Cepeda of the following code challenge:
 
 ## Background
 
